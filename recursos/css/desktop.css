@@ -1,0 +1,335 @@
+﻿* {
+    /*background: rgb(248, 242, 200);*/
+    
+}
+
+body {
+    background-image: url(../imagenes/telon.jpg);
+}
+
+.orange-background{
+    background: rgb(248, 146, 65);
+}
+
+.orange-boton {
+    background: rgb(253, 93, 9);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    width: 15%;
+    height: 5%;
+    object-fit:cover;
+    margin: 2% 2%;
+}
+
+.nav__menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav__menu-opcion {
+    color: rgb(255, 255, 255);
+    font-size: 1.5vw;
+    margin-right: 15px;
+    padding: 1vw;
+    border-radius: 20px;
+}
+
+.main-menu {
+    margin: 5vh 30vw 3vh;
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.5);
+    border: 5px solid rgb(253, 93, 9);
+    border-radius: 15px;
+}
+
+.main-menu i{
+    margin-top: 2.5vh 0;
+    font-size: 3vw;
+}
+
+.main-menu__button {
+    text-align: center;
+    border: none;
+    color: rgb(255, 255, 255);
+    width: 75%;
+    margin: 3vh 0;
+    padding: 0.5em;
+    font-size: 1.5vw;
+    border-radius: 10px;
+}
+
+.nav__menu-opcion:hover{
+    background: rgb(104, 163, 22);
+}
+
+.main-menu__button:hover{
+    background-color: rgb(104, 163, 22);
+}
+
+.footer__desktop{
+   font-size: 2vw;
+    text-align:center;
+}
+
+.footer__tablet{
+    display:none;
+}
+
+.footer__mobile{
+    display:none;
+}
+
+/*FASE 0*/
+
+.fase0-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fase0-header__menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 13vh;
+}
+
+.fase0-header__menu li{
+    margin: 0 2vw;
+}
+
+.fase0-header__menu i{
+    color: rgb(255, 255, 255);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size:2vw;
+    height: 5vh;
+    width: 4vw;
+}
+
+.fase0-header__menu-opcion {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    height: 5vh;
+    width: 10vw;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.fase0-header__menu-opcion:hover{
+    background-color: rgb(104, 163, 22);
+}
+
+.fase0-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15vh 30vw 0 30vw;
+    background: rgba(255, 255, 255, 0.5);
+    border: 5px solid rgb(253, 93, 9);
+    border-radius: 15px;
+}
+
+.fase0-main__boton {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    width: 25vw;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: 2.5vw;
+}
+
+.fase0-main div {
+    margin: 4vh 0;
+}
+
+.fase0-main div i{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    width: 5vw;
+    font-size: 3vw;
+}
+
+.fase0-main__boton:hover {
+    background: rgb(104, 163, 22);
+}
+
+/*Mirror video*/
+.mirror {
+    transform: scaleX(-1);
+    border: 6px solid red;
+    border-radius: 8px;
+    object-fit: cover;
+    height: 80vh;
+    width: 70vw;
+}
+
+/*Reconocimiento*/
+
+.reconocimiento-main{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 1vh;
+}
+
+.reconocimiento-header {
+    margin-bottom: 1vh;
+}
+
+.reconocimiento-header__menu {
+    list-style-type: none;
+    display: flex;
+    height: 8vh;
+}
+
+.reconocimiento-header__menu-opcion {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 12vw;
+    font-size: 2vw;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.reconocimiento-header__menu-opcion:hover{
+    background: rgb(104, 163, 22);
+}
+
+.reconocimiento-header__menu li i {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.5vw;
+    height: 5vh;
+    align-items: center;
+    font-size: 2vw;
+}
+
+.reconocimiento-header__menu li {
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    margin: 0 1vw;
+}
+
+.botones-video__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+
+.botones-video__boton{
+    padding: 1.5vw;
+    margin-right: 2vw;
+    border-radius: 50%;
+}
+
+.botones-video__boton i{
+    font-size: 4vw;
+    color: rgb(255, 255, 255);
+}
+
+/*Mostrar y ocultar video*/
+.ocultar{
+    display: none;
+}
+
+/*Pixelar el fondo al grabar*/
+/*.pixelar {
+    background: rgb(16, 15, 15);
+}
+*/
+
+/*Vocabulario*/
+.categoria-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 95vw;
+    height: 100%;
+    margin: 5vh auto;
+    border: 5px solid rgb(253, 93, 9);
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.categoria-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 1.5vh 1.5vw;
+    width: 25vw;
+    min-width: 90px;
+    height: 40vh;
+    background: rgb(255, 255, 255);
+    border: 5px solid rgb(253, 93, 9);
+    border-radius: 20px;
+}
+
+.categoria-item__titulo {
+    display: block;
+    text-decoration: none;
+    padding: 1% 0;
+    font-size: 2vw;
+    border-bottom: 5px solid rgb(253, 93, 9);
+    color: rgb(16, 15, 15);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.categoria-item__titulo:hover{
+    background: rgb(104, 163, 22);
+}
+
+.categoria-item__media {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.categoria-item__media-imgVideo {
+    width: 46%;
+    height: 90%;
+    border: 1px solid blue;
+    object-fit: cover;
+}
+
+.agregar-categoria{
+    height: 100%;
+    width: 100%;
+    font-size: 4vw;
+    border-radius: 15px;
+}
+
+.agregar-categoria:hover{
+     background: rgb(104, 163, 22);
+}
+
+
+
+

@@ -178,8 +178,8 @@ header img{
     border: 6px solid red;
     border-radius: 8px;
     object-fit: cover;
-    height: 80vh;
-    width: 70vw;
+    height: 75vh;
+    width: 85vw;
 }
 
 /*Reconocimiento*/
@@ -238,17 +238,16 @@ header img{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5vh;
 }
 
 .botones-video__boton{
-    padding: 1.5vw;
+    padding: 1vw;
     margin-right: 2vw;
     border-radius: 50%;
 }
 
 .botones-video__boton i{
-    font-size: 4vw;
+    font-size: 3.5vw;
     color: rgb(255, 255, 255);
 }
 
@@ -263,7 +262,14 @@ header img{
 }
 */
 
+
+/*Fondo naranja*/
+.fondo-body{
+    background-image:url(../imagenes/telon.jpg);
+}
+
 /*Vocabulario*/
+
 .categoria-container {
     display: flex;
     flex-wrap: wrap;
@@ -282,7 +288,6 @@ header img{
     text-align: center;
     margin: 1.5vh 1.5vw;
     width: 25vw;
-    min-width: 90px;
     height: 40vh;
     background: rgb(255, 255, 255);
     border: 5px solid rgb(253, 93, 9);

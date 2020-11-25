@@ -184,7 +184,7 @@ header img {
     border-radius: 8px;
     object-fit: cover;
     height: 80vh;
-    width: 70vw;
+    width: 90vw;
 }
 
 /*Reconocimiento*/
@@ -243,7 +243,6 @@ header img {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5vh;
 }
 
 .botones-video__boton{

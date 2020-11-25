@@ -179,24 +179,24 @@ header img {
     border: 6px solid red;
     border-radius: 8px;
     object-fit: cover;
-    height: 80vh;
-    width: 80vw;
+    height: 75vh;
+    width: 90vw;
+    margin-top: 0.3vh;
 }
 
 /*Reconocimiento*/
 
 .reconocimiento-main {
     display: flex;
-    height: 87vh;
+    height: 80vh;
     justify-content: center;
     align-items: center;
 }
 
-
 .reconocimiento-header__menu {
     list-style-type: none;
     display: flex;
-    height: 13vh;
+    height: 10vh;
 }
 
 .reconocimiento-header__menu-opcion {
@@ -236,7 +236,6 @@ header img {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5vh;
 }
 
 .botones-video__boton{

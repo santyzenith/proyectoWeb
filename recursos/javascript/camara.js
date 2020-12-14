@@ -78,6 +78,8 @@ navigator.mediaDevices.getUserMedia(constraintObj)
             //body.classList.add("pixelar")
             ////
 
+            body.style.background = "rgba(22,20,20,0.9)";
+
             video.classList.remove("ocultar");
             vidSave.classList.add("ocultar");
 
@@ -93,6 +95,7 @@ navigator.mediaDevices.getUserMedia(constraintObj)
             ////quito el pixelado del fondo al parar
             //body.classList.remove("pixelar")
             ////
+            body.style.background = "";
             
             video.classList.add("ocultar")
             vidSave.classList.remove("ocultar");

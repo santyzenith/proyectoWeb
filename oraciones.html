@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Oraciones</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="recursos/css/normalize.css" />
+
+    <!--<link rel="stylesheet" type="text/css" href="../../recursos/css/mobile.css" media="screen and (max-width: 450px)" />
+
+    <link rel="stylesheet" type="text/css" href="../../recursos/css/tablet.css" media="screen and (min-width: 450px) and (max-width: 900px)" />-->
+    <!--<link rel="stylesheet" type="text/css" href="../../recursos/css/desktop.css" media="screen and (min-width: 900px)" />-->
+    <link rel="stylesheet" type="text/css" href="recursos/css/desktop.css" media="all" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet"> <!--Fuente para el documento-->
+</head>
+<body class="fondo-body">
+
+    <script src="https://kit.fontawesome.com/a986b7884d.js" crossorigin="anonymous"></script> <!--Link para iconos de font awesome-->
+
+    <header class="reconocimiento-header orange-background">
+        <nav>
+            <ul class="reconocimiento-header__menu orange-background">
+                <li class="orange-background"><i class="fas fa-arrow-left orange-background"></i><a class="reconocimiento-header__menu-opcion orange-boton" href="fase0.html">Regresar</a></li>
+                <li class="orange-background"><i class="fas fa-home orange-background"></i><a class="reconocimiento-header__menu-opcion orange-boton" href="index.html">Inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="oraciones-container" class="oraciones-container">
+
+        <div class="oraciones-item">
+            <a id="btn-articulo" href="#" class="oraciones-item__titulo">Articulo</a>
+            <div class="oraciones-item__media">
+                <video class="oraciones-item__media-imgVideo auto" src="recursos/videos/video_prueba.mp4"></video>
+                <img id="activa-articulo" class="oraciones-item__media-imgVideo" src="recursos/imagenes/oraciones/articulos/articulos.jpg" />
+            </div>
+        </div>
+
+        <div class="oraciones-item">
+            <a id="btn-sustantivo" href="#" class="oraciones-item__titulo">Sustantivo</a>
+            <div class="oraciones-item__media">
+                <video class="oraciones-item__media-imgVideo auto" src="recursos/videos/video_prueba.mp4"></video>
+                <img id="activa-sustantivo" class="oraciones-item__media-imgVideo" src="recursos/imagenes/oraciones/sustantivos/sustantivos1.jpg" />
+            </div>
+        </div>
+
+        <div class="oraciones-item">
+            <a id="btn-verbo" href="#" class="oraciones-item__titulo">Verbo</a>
+            <div class="oraciones-item__media">
+                <video class="oraciones-item__media-imgVideo auto" src="recursos/videos/video_prueba.mp4"></video>
+                <img id="activa-verbo" class="oraciones-item__media-imgVideo" src="recursos/imagenes/oraciones/verbos/verbos1.jpg" />
+            </div>
+        </div>
+
+        <div class="oraciones-item">
+            <a id="btn-complemento" href="#" class="oraciones-item__titulo">Complemento</a>
+            <div class="oraciones-item__media">
+                <video class="oraciones-item__media-imgVideo auto" src="recursos/videos/video_prueba.mp4"></video>
+                <img id="activa-complemento" class="oraciones-item__media-imgVideo" src="recursos/imagenes/oraciones/complementos/complemento1.jpg" />
+            </div>
+        </div>
+
+    </div>
+
+    <div id="carrusel-container" class="carrusel-container ocultar">
+        <i id="regresar" class="fas fa-arrow-left"></i>
+        <div class="carrusel-items">
+            <img class="imgs" src="recursos/imagenes/oraciones/articulos/el.jpg" alt="imagen" />
+            <img class="imgs" src="recursos/imagenes/oraciones/articulos/la.jpg" alt="imagen" />
+            <img class="imgs" src="recursos/imagenes/oraciones/articulos/las.jpg" alt="imagen" />
+            <img class="imgs" src="recursos/imagenes/oraciones/articulos/los.jpg" alt="imagen" />
+            <img class="imgs" src="recursos/imagenes/oraciones/articulos/un.jpg" alt="imagen" />
+            <img class="imgs" src="recursos/imagenes/oraciones/articulos/una.jpg" alt="imagen" />
+            <img class="imgs" src="recursos/imagenes/oraciones/articulos/unas.jpg" alt="imagen" />
+            <img class="imgs" src="recursos/imagenes/oraciones/articulos/unos.jpg" alt="imagen" />
+            <img class="imgs" src="recursos/imagenes/oraciones/articulos/unos.jpg" alt="imagen" />
+            <img class="imgs" src="recursos/imagenes/oraciones/articulos/unos.jpg" alt="imagen" />
+            <img class="imgs" src="recursos/imagenes/oraciones/articulos/unos.jpg" alt="imagen" />
+            <img class="imgs" src="recursos/imagenes/oraciones/articulos/unos.jpg" alt="imagen" />
+            <img class="imgs" src="recursos/imagenes/oraciones/articulos/unos.jpg" alt="imagen" />
+            <img class="imgs" src="recursos/imagenes/oraciones/articulos/unos.jpg" alt="imagen" />
+            <img class="imgs" src="recursos/imagenes/oraciones/articulos/unos.jpg" alt="imagen" />
+            <img class="imgs" src="recursos/imagenes/oraciones/articulos/unos.jpg" alt="imagen" />
+            <img class="imgs" src="recursos/imagenes/oraciones/articulos/unos.jpg" alt="imagen" />
+            <img class="imgs" src="recursos/imagenes/oraciones/articulos/unos.jpg" alt="imagen" />
+        </div>
+        <i id="avanzar" class="fas fa-arrow-right"></i>
+    </div>
+    <script src="recursos/javascript/carrusel_oraciones.js"></script>
+
+</body>
+</html>

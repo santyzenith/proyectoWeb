@@ -267,6 +267,11 @@ header img {
 }
 */
 
+/*Fondo naranja*/
+.fondo-body {
+    background-image: url(../imagenes/telon.jpg);
+}
+
 /*Vocabulario*/
 .categoria-container {
     display: flex;

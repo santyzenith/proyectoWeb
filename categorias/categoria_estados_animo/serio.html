@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Serio</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="../../recursos/css/normalize.css" />
+
+    <!--<link rel="stylesheet" type="text/css" href="../../recursos/css/mobile.css" media="screen and (max-width: 450px)" />
+
+    <link rel="stylesheet" type="text/css" href="../../recursos/css/tablet.css" media="screen and (min-width: 450px) and (max-width: 900px)" />-->
+    <!--<link rel="stylesheet" type="text/css" href="../../recursos/css/desktop.css" media="screen and (min-width: 900px)" />-->
+    <link rel="stylesheet" type="text/css" href="../../recursos/css/desktop.css" media="all" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet"> <!--Fuente para el documento-->
+</head>
+<body id="body-objetos" class="fondo-body">
+
+    <script src="../../recursos/javascript/camara.js"></script> <!--script para el comportamiento de la camara-->
+
+    <script src="https://kit.fontawesome.com/a986b7884d.js" crossorigin="anonymous"></script> <!--Link para iconos de font awesome-->
+
+    <header class="reconocimiento-header orange-background">
+        <nav>
+            <ul class="reconocimiento-header__menu orange-background">
+                <li class="orange-background"><i class="fas fa-arrow-left orange-background"></i><a class="reconocimiento-header__menu-opcion orange-boton" href="categoria_estados_animo.html">Regresar</a></li>
+                <li class="orange-background"><i class="fas fa-home orange-background"></i><a class="reconocimiento-header__menu-opcion orange-boton" href="../../index.html">Inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="categoria-container">
+        <div class="objetos-item">
+            <p class="objetos-item__titulo">Serio</p>
+            <div class="categoria-item__media">
+                <video class="categoria-item__media-imgVideo auto" src="recursos/videos/video_prueba.mp4"></video>
+                <img class="categoria-item__media-imgVideo" src="recursos/imagenes/categoria-frutas.jpg" />
+            </div>
+        </div>
+
+        <div class="objetos-item">
+            <video id="video-record" class="mirror video-objetos"></video>
+            <video id="video-container" class="ocultar mirror video-objetos" loop></video>
+            <div class="botones-video__container">
+                <button id="startVideo" class="botones-video__boton orange-boton"><i class="fas fa-circle"></i></button>
+                <button id="playVideo" class="botones-video__boton orange-boton ocultar"><i class="fas fa-play-circle"></i></button>
+                <button id="pauseVideo" class="botones-video__boton orange-boton ocultar"><i class="fas fa-pause"></i></button>
+                <button id="stopVideo" class="botones-video__boton orange-boton ocultar"><i class="fas fa-stop-circle"></i></button>
+                <!--<button id="stopVideo" class="botones-video__boton orange-boton ocultar"><i class="fas fa-pause"></i></button>-->
+            </div>
+        </div>
+    </div>
+
+    <!--<script src="../../recursos/javascript/objetos_categorias.js"></script>-->
+
+</body>
+</html>

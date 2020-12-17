@@ -63,8 +63,14 @@ navigator.mediaDevices.getUserMedia(constraintObj)
 
         let pause = document.getElementById('pauseVideo');
 
-        let body = document.getElementById('body-video');
-
+        let titulo = document.title.toString();
+        let vidband = false;
+        let body;
+        if (titulo == "Reconocimiento") {
+            body = document.getElementById('body-video');
+            vidband = true;
+        }
+        
         let vidSave = document.getElementById('video-container');
         let mediaRecorder = new MediaRecorder(mediaStreamObj);
         let chunks = [];
@@ -78,8 +84,10 @@ navigator.mediaDevices.getUserMedia(constraintObj)
             //body.classList.add("pixelar")
             ////
 
-            body.style.background = "rgba(22,20,20,0.9)";
-
+            if (vidband == true) {
+                body.style.background = "rgba(22,20,20,0.9)";
+            }
+            
             video.classList.remove("ocultar");
             vidSave.classList.add("ocultar");
 
@@ -95,7 +103,9 @@ navigator.mediaDevices.getUserMedia(constraintObj)
             ////quito el pixelado del fondo al parar
             //body.classList.remove("pixelar")
             ////
-            body.style.background = "";
+            if (vidband == true) {
+                body.style.background = "";
+            }
             
             video.classList.add("ocultar")
             vidSave.classList.remove("ocultar");

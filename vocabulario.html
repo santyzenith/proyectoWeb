@@ -17,14 +17,14 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet"> <!--Fuente para el documento-->
 </head>
-<body class="fondo-body">
+<body class="fondo-body" id="contVoc">
     <script src="https://kit.fontawesome.com/a986b7884d.js" crossorigin="anonymous"></script> <!--Link para iconos de font awesome-->
 
     <header class="reconocimiento-header orange-background">
         <nav>
             <ul class="reconocimiento-header__menu orange-background">
-                <li class="orange-background"><i class="fas fa-arrow-left orange-background"></i><a class="reconocimiento-header__menu-opcion orange-boton" href="fase0.html">Regresar</a></li>
-                <li class="orange-background"><i class="fas fa-home orange-background"></i><a class="reconocimiento-header__menu-opcion orange-boton" href="index.html">Inicio</a></li>
+                <li class="orange-background"><i class="fas fa-arrow-left orange-background"></i><a name="item" class="reconocimiento-header__menu-opcion orange-boton" href="fase0.html">Regresar</a></li>
+                <li class="orange-background"><i class="fas fa-home orange-background"></i><a name="item" class="reconocimiento-header__menu-opcion orange-boton" href="index.html">Inicio</a></li>
             </ul>
         </nav>
     </header>
@@ -32,7 +32,7 @@
     <div id="categoria-container" class="categoria-container">
 
         <div class="categoria-item">
-            <a href="categorias/categoria_frutas/categoria_frutas.html" class="categoria-item__titulo">Frutas</a>
+            <a name="item" href="categorias/categoria_frutas/categoria_frutas.html" class="categoria-item__titulo">Frutas</a>
             <div class="categoria-item__media">
                 <video class="categoria-item__media-imgVideo auto" src="recursos/videos/video_prueba.mp4"></video>
                 <img class="categoria-item__media-imgVideo" src="recursos/imagenes/categoria-frutas.jpg" />
@@ -40,7 +40,7 @@
         </div>
 
         <div class="categoria-item">
-            <a href="categorias/categoria_bebidas/categoria_bebidas.html" class="categoria-item__titulo">Bebidas</a>
+            <a name="item" href="categorias/categoria_bebidas/categoria_bebidas.html" class="categoria-item__titulo">Bebidas</a>
             <div class="categoria-item__media">
                 <video class="categoria-item__media-imgVideo auto" src="recursos/videos/video_prueba.mp4"></video>
                 <img class="categoria-item__media-imgVideo" src="recursos/imagenes/categoria-bebidas.png" />
@@ -48,7 +48,7 @@
         </div>
 
         <div class="categoria-item">
-            <a href="categorias/categoria_lugares_publicos/categoria_lugares_publicos.html" class="categoria-item__titulo">Lugares P&uacute;blicos</a>
+            <a name="item" href="categorias/categoria_lugares_publicos/categoria_lugares_publicos.html" class="categoria-item__titulo">Lugares P&uacute;blicos</a>
             <div class="categoria-item__media">
                 <video class="categoria-item__media-imgVideo auto" src="recursos/videos/video_prueba.mp4"></video>
                 <img class="categoria-item__media-imgVideo" src="recursos/imagenes/categoria-lugares.png" />
@@ -56,7 +56,7 @@
         </div>
 
         <div class="categoria-item">
-            <a href="categorias/categoria_estados_animo/categoria_estados_animo.html" class="categoria-item__titulo">Estados de &aacute;nimo</a>
+            <a name="item" href="categorias/categoria_estados_animo/categoria_estados_animo.html" class="categoria-item__titulo">Estados de &aacute;nimo</a>
             <div class="categoria-item__media">
                 <video class="categoria-item__media-imgVideo auto" src="recursos/videos/video_prueba.mp4"></video>
                 <img class="categoria-item__media-imgVideo" src="recursos/imagenes/categoria-estados_de_animo.png" />
@@ -64,7 +64,7 @@
         </div>
 
         <div class="categoria-item">
-            <a href="categorias/categoria_lugares_casa/categoria_lugares_casa.html" class="categoria-item__titulo">Lugares de casa</a>
+            <a name="item" href="categorias/categoria_lugares_casa/categoria_lugares_casa.html" class="categoria-item__titulo">Lugares de casa</a>
             <div class="categoria-item__media">
                 <video class="categoria-item__media-imgVideo auto" src="recursos/videos/video_prueba.mp4"></video>
                 <img class="categoria-item__media-imgVideo" src="recursos/imagenes/categoria-lugares_casa.png" />
@@ -72,7 +72,7 @@
         </div>
 
         <div class="categoria-item">
-            <a href="categorias/categoria_prendas/categoria_prendas.html" class="categoria-item__titulo">Prendas de vestir</a>
+            <a name="item" href="categorias/categoria_prendas/categoria_prendas.html" class="categoria-item__titulo">Prendas de vestir</a>
             <div class="categoria-item__media">
                 <video class="categoria-item__media-imgVideo auto" src="recursos/videos/video_prueba.mp4"></video>
                 <img class="categoria-item__media-imgVideo" src="recursos/imagenes/categoria-prendas_vestir.png" />
@@ -80,10 +80,11 @@
         </div>
 
         <div class="categoria-item">
-            <button id="agregarCategoria" title="Agregar categoria" class="agregar-categoria"><i class="fas fa-plus"></i></button>
+            <button name="item" id="agregarCategoria" title="Agregar categoria" class="agregar-categoria"><i class="fas fa-plus"></i></button>
         </div>
     </div>
 
     <script src="recursos/javascript/vocabulario.js"></script>
+    <script src="recursos/javascript/movimiento_teclado.js"></script>
 </body>
 </html>

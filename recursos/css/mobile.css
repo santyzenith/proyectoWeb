@@ -65,22 +65,29 @@ header img {
 }
 
 .main-menu__button {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: none;
     color: rgb(255, 255, 255);
-    width: 60%;
+    width: 85%;
     margin: 3vh 0;
-    padding: 0.5em;
-    font-size: 5vw;
+    height: 8vh;
+    font-size: 5.5vw;
     border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(253, 93, 9,0.5);
+    transition: 0.3s;
 }
 
 .nav__menu-opcion:hover {
     background: rgb(104, 163, 22);
+    transition: 0.4s;
 }
 
 .main-menu__button:hover {
     background-color: rgb(104, 163, 22);
+    transition: 0.4s;
+    box-shadow: 3px 3px 20px rgba(104, 163, 22,0.5);
 }
 
 .footer__desktop {
@@ -134,6 +141,7 @@ header img {
 
 .fase0-header__menu-opcion:hover {
     background: rgb(104, 163, 22);
+        transition: 0.4s;
 }
 
 .fase0-main {
@@ -156,6 +164,7 @@ header img {
     color: rgb(255, 255, 255);
     border-radius: 5px;
     font-size: 6vw;
+    transition: 0.3s;
 }
 
 .fase0-main div {
@@ -175,6 +184,8 @@ header img {
 
 .fase0-main__boton:hover {
     background: rgb(104, 163, 22);
+    transition: 0.4s;
+    box-shadow: 3px 3px 20px rgba(104, 163, 22,0.5);
 }
 
 /*Mirror video*/
@@ -216,10 +227,12 @@ header img {
     text-decoration: none;
     color: rgb(255, 255, 255);
     border-radius: 10px;
+    transition: 0.3s;
 }
 
 .reconocimiento-header__menu-opcion:hover{
     background: rgb(104, 163, 22);
+        transition: 0.4s;
 }
 
 .reconocimiento-header__menu li i {
@@ -306,10 +319,12 @@ header img {
     color: rgb(16, 15, 15);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    transition: 0.3s;
 }
 
 .categoria-item__titulo:hover{
     background: rgb(104, 163, 22);
+    transition: 0.4s;
 }
 
 .categoria-item__media{
@@ -336,6 +351,7 @@ header img {
 
 .agregar-categoria:hover{
     background: rgb(104, 163, 22);
+    transition: 0.4s;
 }
 
 /*Mostrar y ocultar video*/

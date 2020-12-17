@@ -238,7 +238,6 @@ regresar.addEventListener('click', () => {
         posicion = arreglo.length - 1;
     } else if (posicion > 0) {
         posicion--;
-        console.log(posicion);
     }
     cambiar();
 });
@@ -246,7 +245,6 @@ regresar.addEventListener('click', () => {
 avanzar.addEventListener('click', () => {
     if (posicion < (arreglo.length - 1)) {
         posicion++;
-        console.log(posicion);
     } else if (posicion == (arreglo.length - 1)) {
         posicion = 0;
     }

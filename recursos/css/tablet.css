@@ -57,22 +57,30 @@ header img {
 }
 
 .main-menu__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     border: none;
     color: rgb(255, 255, 255);
-    width: 70%;
+    width: 75%;
     margin: 3vh 0;
-    padding: 0.5em;
-    font-size: 3vw;
+    height: 10vh;
+    font-size: 4vw;
     border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(253, 93, 9,0.5);
+    transition: 0.3s;
 }
 
 .nav__menu-opcion:hover {
     background: rgb(104, 163, 22);
+    transition: 0.4s;
 }
 
 .main-menu__button:hover {
     background-color: rgb(104, 163, 22);
+    transition: 0.4s;
+    box-shadow: 3px 3px 20px rgba(104, 163, 22,0.5);
 }
 
 .footer__desktop {
@@ -122,7 +130,7 @@ header img {
     justify-content: center;
     align-items: center;
     font-size: 5vw;
-    height: 5vh;
+    height: 7vh;
     width: 15vw;
     color: rgb(255, 255, 255);
     border-radius: 10px;
@@ -130,6 +138,7 @@ header img {
 
 .fase0-header__menu-opcion:hover {
     background: rgb(104, 163, 22);
+    transition: 0.4s;
 }
 
 .fase0-main {
@@ -147,11 +156,13 @@ header img {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    height: 8vh;
-    width: 25vw;
+    height: 9vh;
+    width: 32vw;
     color: rgb(255, 255, 255);
     border-radius: 5px;
-    font-size: 3vw;
+    font-size: 4vw;
+    box-shadow: 3px 3px 5px rgba(253, 93, 9,0.5);
+    transition: 0.3s;
 }
 
 .fase0-main div {
@@ -166,11 +177,14 @@ header img {
     align-items: center;
     height: 8vh;
     width: 5vw;
-    font-size: 3.5vw;
+    margin-right: 2vw;
+    font-size: 4vw;
 }
 
 .fase0-main__boton:hover {
     background: rgb(104, 163, 22);
+    transition: 0.4s;
+    box-shadow: 3px 3px 20px rgba(104, 163, 22,0.5);
 }
 
 /*Mirror video*/
@@ -209,10 +223,12 @@ header img {
     text-decoration: none;
     color: rgb(255, 255, 255);
     border-radius: 10px;
+    transition: 0.3s;
 }
 
 .reconocimiento-header__menu-opcion:hover {
     background: rgb(104, 163, 22);
+    transition: 0.4s;
 }
 
 .reconocimiento-header__menu li i {
@@ -297,10 +313,12 @@ header img {
     color: rgb(16, 15, 15);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    transition: 0.3s;
 }
 
 .categoria-item__titulo:hover{
     background: rgb(104, 163, 22);
+    transition: 0.4s;
 }
 
 .categoria-item__media {
@@ -318,7 +336,7 @@ header img {
     object-fit: cover;
 }
 
-.agregar-categoria{
+.agregar-categoria {
     height: 100%;
     width: 100%;
     font-size: 4vw;
@@ -327,6 +345,7 @@ header img {
 
 .agregar-categoria:hover{
      background: rgb(104, 163, 22);
+      transition: 0.4s;
 }
 
 /*Mostrar y ocultar video*/
